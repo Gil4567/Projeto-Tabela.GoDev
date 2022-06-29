@@ -1,21 +1,18 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    
-    
 }
 
 div{
     display: flex;
     justify-content: center;
-    
 }
 
 
 th, td{
     text-align: center;
     
-    margin: 0;
+    
 }
 
 th{
@@ -83,4 +80,50 @@ table, tr{
     font-weight: bold;
     font-size: 18px;
     color: #C91B04;
+}
+
+/* Legenda */
+
+
+
+#leg-classificaçao{
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+}
+
+#libertadores{
+    color: #003366;
+}
+
+#pre-libertadores{
+    color: #1398BE;
+}
+
+#sul-americana{
+    color: #DE9800;
+}
+
+#rebaixados{
+    color: #C91B04;
+}
+
+
+tfoot tr{
+    border: none;
+}
+
+#leg-siglas{
+    font-size: 10px;
+    color: #555555;
+    font-weight: bold;
+}
+
+tfoot #leg-siglas a{
+    font-weight: normal;
+    
+}
+
+.cor, .pontos{
+    background-color: #F7F7F7;
 }
