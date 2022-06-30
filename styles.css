@@ -39,6 +39,7 @@ td{
 table, tr{
     border: 1px solid #DDDDDD;
     border-collapse: collapse;
+    padding: .7em;
 }
 
 #linha4, #linha16{
